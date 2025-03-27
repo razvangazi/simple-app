@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Counter from './components/Counter'
 import Footer from './components/Footer'
+import HyundaiModelsTable from './components/HyundaiModelsTable'
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
           <h1 className="text-3xl font-bold text-center mb-6">Hello I changed the title.</h1>
           <p className="text-center mb-8">This is a demonstration of a simple React application with some basic components.</p>
           <Counter initialCount={0} />
+        </div>
+        <div className="my-12">
+          <HyundaiModelsTable />
         </div>
       </main>
       <Footer />
